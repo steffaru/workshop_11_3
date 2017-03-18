@@ -1,0 +1,236 @@
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+    background: black;
+    color: white;
+}
+/* Menú de Navegación*/
+nav img {
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-default {
+    background: black;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.caption p {
+    text-align: center;
+}
+
+.caption p, h4 {
+    color:white ;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    color: white;
+}
+
+@media (min-width:992px) {
+    .orig {
+    width: 250px;
+    height: 340px;
+    }
+    .orig img {
+    height: 150px;
+    width: 100%;
+    }
+}
+    
+.orig {  
+    background: transparent;
+}
+footer{
+    padding: 50px 0px;
+    background-color: black;
+}
+.redes{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+.redes article{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s easy-in-out;
+    
+}
+.redes article:hover {
+    transform: scale(1.1, 1.1);
+}
+.redes article.facebook {
+    background: #3b5998;
+    
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+.redes article.facebook span.fa-facebook {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.redes article.facebook:hover {
+    background: #344e86; 
+}
+.redes article.twitter{
+    background: #00aced;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.redes article.twitter span.fa-twitter{
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.redes article.twitter:hover{
+    background: #0099d4;
+}
+.redes article.instagram {
+    background: #bc2a8d;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+.redes article.instagram span.fa-instagram {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.redes article.instagram:hover {
+    background: #a7257d;
+}
+.redes article.pinterest{
+    background: #cb2027;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+.redes article.pinterest span.fa-pinterest {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.redes article.pinterest:hover {
+    background: #b51d23;
+}
+.redes article.whatsapp {
+    background: #5B9A68;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.redes article.whatsapp span.fa-whatsapp {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.redes article.whatsapp:hover {
+    background: #4B7F56;
+}
+.menu-footer h4{
+    color: white;
+    font-size: 30px;
+}
+.menu-footer p, .menu-footer a{
+    color: lightgray;
+    letter-spacing:1.5px;
+}
+.menu-footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn-warning{
+    background: aliceblue;
+    color: #274060;
+    border: 1px solid aliceblue;
+    font-style: bolder;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.btn-warning:hover{
+    background:#274060;
+    color: aliceblue;
+    border: 1px solid #274060;
+}
+.form-horizontal .form-group {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.opciones{
+    padding: 0;
+}
+.opciones li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 25px;
+    margin-left: 5px;
+}
+@media screen and (max-width:767px) {
+    .opciones{
+        text-align: center;
+    }
+    .opciones li{
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .redes{
+        width: 80%; 
+    }
+    .menu-footer p, .menu-footer a{
+        text-align: center;
+        padding: 10px 0px;
+        line-height: 20px;
+        letter-spacing: 3px;
+
+    }
+    .form-horizontal {
+        max-width: 90%;
+    }
+    .form-control{
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .btn-warning{
+        height: 50px;
+    }
+}

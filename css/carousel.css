@@ -1,0 +1,138 @@
+/* Slider */
+
+.carousel-inner .item {
+  max-height: 680px;
+}
+
+.carousel-inner .item:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-control {
+  width: 10%;
+}
+
+.carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .fa.fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+
+/* Slider caption */
+
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/* Change animation duration */
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .carousel-caption h2 {
+      font-size: 35px;
+      margin-bottom: 5px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .btn-large {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    
+    .carousel-caption h2 {
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .btn-large {
+        padding: 8px 35px;
+        font-size: 20px;
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+    .carousel-control .fa {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        font-size: 30px;
+    }
+    .carousel-control .fa-chevron-left {
+        margin-left: -15px;
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        bottom: 20%;
+    }
+}

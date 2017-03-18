@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Basquiat Street Pub</title>
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Quicksand" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/styleee.css" rel="stylesheet">
+    <link href="css/nico.css" rel="stylesheet">
+    <link href="css/steffi.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.jpg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#eventos">EVENTOS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#menu">MENU</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#locales">LOCALES</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Section -->
+    <section class="main-slider">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+            </ol>
+
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+
+                <!-- Slide 1 : Active -->
+                <div class="item active">
+                    <img src="img/carousel_1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Baskiat Pub</h3>
+                        <p>Comparte con tus amigos.</p>
+                    </div><!-- /.carousel-caption -->
+                </div><!-- /Slide1 -->
+
+                <!-- Slide 2 -->
+                <div class="item ">
+                    <img src="img/carousel_2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Baskiat Pub</h3>
+                        <p>Disfruta de nuestras musica alternativa.</p>
+                    </div><!-- /.carousel-caption -->
+                </div><!-- /Slide2 -->
+
+                <!-- Slide 3 -->
+                <div class="item ">
+                    <img src="img/carousel_3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Baskiat Pub</h3>
+                        <p>Somos el único artbar en Rosario.</p>
+                    </div><!-- /.carousel-caption -->
+                </div><!-- /Slide3 -->
+            </div><!-- /.carousel-inner -->
+
+
+            <!-- Controls -->
+            <div class="control-box">
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="control-icon prev fa fa-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="control-icon next fa fa-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- /.control-box -->
+
+        </div><!-- /#myCarousel -->
+    </section><!-- /.main-slider -->
+
+    <!-- Eventos Section -->
+    <div class="container">
+        <div class="row">
+            <section class="col-xs-12" id="eventos">
+                <h2 class="text-center">Eventos</h2>
+            </section>
+            <section class="col-xs-12">
+                <article class="col-md-3">
+                    <div class="thumbnail orig">
+                        <img src="img/black_box_sundays_12-02.jpg" alt="Ambar">
+                        <div class="caption">
+                            <h4>The Black Box Sundays! Live Show> Aine/ M. Huertas/ De Rosa!</h4>
+                            <p>domingo, 12 de febrero de 21:30 a 1:30</p>
+                            <p><a href="https://www.facebook.com/events/1898280777125617/" class="btn btn-primary" role="button" target="_blank">Ir al    evento</a> </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-3">
+                    <div class="thumbnail orig">
+                        <img src="img/black_box_sundays_19-02.jpg" alt="Ema">
+                        <div class="caption">
+                            <h4>The Black Box Sundays! Live Show> Ema!</h4>
+                            <p>domingo, 19 de febrero de 21:30 a 1:30</p>
+                            <p><a href="https://www.facebook.com/events/1679081789059284/" class="btn btn-primary" role="button" target="_blank">Ir al evento</a> </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-3">
+                    <div class="thumbnail orig">
+                        <img src="img/black_box_sundays_26-02.jpg" alt="Xpiral">
+                        <div class="caption">
+                            <h4>The Black Box Sundays> Live Acoustic Show Xpiral!</h4>
+                            <p>domingo, 26 de febrero de 21:30 a 1:30</p>
+                            <p><a href="https://www.facebook.com/events/354846778242452/" class="btn btn-primary" role="button" target="_blank">Ir al evento</a> </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-3">
+                    <div class="thumbnail orig">
+                        <img src="img/black_box_sundays_5-03.jpg" alt="Aine">
+                        <div class="caption">
+                            <h4>The Black Box Sundays! Live Show> Aine/ M. Huertas/ De Rosa!</h4>
+                            <p>domingo, 5 de marzo de 21:30 a 1:30</p>
+                            <p><a href="https://www.facebook.com/events/160011944513032/" class="btn btn-primary" role="button" target="_blank">Ir al evento</a> </p>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+    </div>
+
+    <!-- Banner Menu  -->
+    <section id="menu">
+        <div class="row">
+        <div class="container-fluid">
+            <article class="hidden-xs col-md-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/menu_1.jpg" alt="food">
+                            <div class="carousel-caption">
+                                <h2>Platos culinarios</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_2.jpg" alt="food">
+                            <div class="carousel-caption">
+                                <h2>Cenas</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_4.jpg" alt="food">
+                            <div class="carousel-caption">
+                                <h2>Picadas</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_5.jpg" alt="food">
+                            <div class="carousel-caption">
+                                <h2>Pizzas</h2>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <img src="img/menu_6.jpg" alt="drinks">
+                            <div class="carousel-caption">
+                                <h2>Cervezas tiradas</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_7.jpg" alt="drinks">
+                            <div class="carousel-caption">
+                                <h2>Cocteles</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_8.png" alt="drinks">
+                            <div class="carousel-caption">
+                                <h2>Cervezas artesanales</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/menu_9.jpg" alt="drinks">
+                            <div class="carousel-caption">
+                                <h2>Bebidas internacionales</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        </div>
+    </section>
+    <!-- Banner Menu ends -->
+
+    <!-- Locales Section -->
+    <div class="container" id="locales">
+        <div class="row">
+            <section class="col-md-12">
+                <h2 class="text-center">DONDE ESTAMOS</h2>
+            </section>
+            <section class="col-md-12">
+                <article class="col-md-6">
+                    <div class="thumbnail">
+                        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.631157817957!2d-60.65404004885148!3d-32.9343419808311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4827dc0dff%3A0x4781e1e9fec5de9f!2sBasquiat!5e0!3m2!1sen!2sar!4v1489243489922"></iframe>
+                    <div class="colmo">
+                        <h4>Basquiat Street Pub</h4>
+                        <p>Brown 2248, S2000JCB Rosario, Santa Fe</p>
+                     </div>  
+                </article>	
+                <article class="hidden-xs col-md-6">
+                    <div class="thumbnail">
+                        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.540731891511!2d-60.643597848851414!3d-32.936730380830475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab3b4b7231a7%3A0xa2e8b3a6fc5891ea!2sBasquiat+Coffee+Club!5e0!3m2!1sen!2sar!4v1489244633028" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="colmo">
+                        <h4>Basquiat Coffee Club</h4>
+                        <p>Av. Wheelwright 1487, S2000ACA Rosario, Santa Fe</p>
+                    </div>  
+                </article>	
+            </section>
+        </div>
+    </div>
+    <!-- Locales Section ends-->
+    <!--Form Contact -->
+    <section id="contacto" class="formulario">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="exampleInputName1">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Nombre y Apellido">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputTelefono1">Teléfono</label>
+                    <input type="text" class="form-control" id="exampleInputTelefono1" placeholder="Teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputComentario1">Comentario</label>
+                    <textarea class="form-control" id="exampleInputComentario1" rows="3" placeholder="Comentario"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!--Form Contact ends-->
+
+    <!--Footer -->
+    <footer class="row">
+        <section class="container">
+            <article class="col-md-3 menu-footer">
+                <h4>Basquiat</h4>
+                <ul class="opciones">
+                    <li id="mh">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>  Home
+                        </a>
+                    </li>
+                    <li id="cc">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>  Eventos
+                        </a>
+                    </li>
+                    <li id="f_a">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>  Carta/ Menu
+                        </a>
+                    </li>
+                    <li id="f_s">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Locales
+                        </a>
+                    </li>
+                    <li id="de">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Redes Sociales
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <article class="col-md-3 menu-footer">
+                <h4>Eventos</h4>
+                <p id="bh">
+                    <a href="#">Live Show: Aine M. Huertas/ De Rosa!</a>
+                </p>
+                <p id="l7">
+                    <a href="#">Live Show> Ema!</a>
+                </p>
+                <p id="ct">
+                    <a href="#">Live Acoustic Show Xpiral!</a>
+                </p>
+                <p id="va">
+                    <a href="#">Live Show> Aine, M. Huertas, De Rosa!</a>
+                </p>
+            </article>
+            <article class="col-md-3 menu-footer">
+                <h4>Menú</h4>
+                <p>Dejate deleitar por nuestra <a href="#menu"><b>Cocina Culinaria</b></a>, acompañadas de las mejores bebidas.</p>
+            </article>
+            <article class="col-md-3 menu-footer">
+                <h4>Contacto</h4>
+                <p>Si deseas mayor información para reservar dejános tu mail.</p>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <input class="form-control" type="mail" placeholder="ejemplo@mail.com">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Enviar</button>
+                </form>
+            </article>
+        </section>
+        <section class="col-md-12">
+            <article class="container-fluid redes">
+                <article class="facebook">
+                    <a href="https://www.facebook.com/basquiatpub/">
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                </article>
+                <article class="twitter">
+                    <a href="ttps://twitter.com/basquipub">
+                        <span class="fa fa-twitter" aria-hidden="true"></span>
+                    </a>
+                </article>
+                <article class="instagram">
+                    <a href="https://www.instagram.com/basquiatstreetpub/">
+                        <span class="fa fa-instagram" aria-hidden="true"></span>
+                    </a>
+                </article>
+                <article class="pinterest">
+                    <a href="#">
+                        <span class="fa fa-pinterest" aria-hidden="true"></span>
+                    </a>
+                </article>
+            </article>
+        </section>
+    </footer>
+    <!--Footer ends-->
+
+</body>
+</html>
